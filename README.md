@@ -55,7 +55,6 @@ Compared average review length for positive and negative reviews.
 
 Sentiment_Analysis_Project/
 
-├── IMDB Dataset.csv
 
 ├── sentiment_analysis.py
 
