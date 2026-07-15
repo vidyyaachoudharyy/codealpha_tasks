@@ -1,28 +1,22 @@
-# Netflix EDA Project
+# Sentiment Analysis Project
 
 ## Project Overview
-This project performs Exploratory Data Analysis (EDA) on the Netflix dataset using Python, Pandas, and Matplotlib.
 
-The goal of this project is to analyze Netflix content and discover useful insights through data visualization and statistical analysis.
+This project performs Sentiment Analysis on the IMDB Movie Reviews Dataset using Python, Pandas, and Matplotlib.
+
+The goal is to analyze movie reviews and classify sentiments as Positive or Negative through data analysis and visualization.
 
 ## Dataset
-Dataset: Netflix Titles Dataset
 
-Columns include:
-- show_id
-- type
-- title
-- director
-- cast
-- country
-- date_added
-- release_year
-- rating
-- duration
-- listed_in
-- description
+Dataset: IMDB Dataset of 50K Movie Reviews
+
+Columns:
+
+- review
+- sentiment
 
 ## Technologies Used
+
 - Python
 - Pandas
 - Matplotlib
@@ -30,55 +24,43 @@ Columns include:
 
 ## Analysis Performed
 
-### 1. Movies vs TV Shows
-- Compared the number of Movies and TV Shows available on Netflix.
+### 1. Sentiment Distribution
+Analyzed the number of Positive and Negative reviews.
 
-### 2. Missing Values Analysis
-- Identified missing values in different columns.
+### 2. Bar Chart Visualization
+Visualized sentiment distribution using a bar chart.
 
-### 3. Top 10 Countries
-- Analyzed countries contributing the most Netflix content.
+### 3. Pie Chart Visualization
+Visualized percentage distribution of sentiments.
 
-### 4. Top Release Years
-- Identified the years with the highest number of releases.
-
-### 5. Top Genres
-- Analyzed the most common genres available on Netflix.
+### 4. Review Length Analysis
+Compared average review length for positive and negative reviews.
 
 ## Key Insights
 
-1. Netflix contains more Movies than TV Shows.
-2. Director column has the highest number of missing values.
-3. United States contributes the highest number of titles.
-4. India is the second largest contributor.
-5. Most content was released between 2016 and 2020.
-6. Dramas and International Movies are among the most common genres.
+- Dataset contains 50,000 movie reviews.
+- Positive reviews: 25,000
+- Negative reviews: 25,000
+- Dataset is perfectly balanced.
+- Review lengths vary between sentiment categories.
+- Visualizations help understand sentiment patterns.
+
+## Visualizations
+
+1. Positive vs Negative Reviews Bar Chart
+2. Sentiment Distribution Pie Chart
+3. Average Review Length Bar Chart
 
 ## Project Structure
 
-Netflix_EDA_Project/
+Sentiment_Analysis_Project/
 
-├── netflix_titles.csv
+├── IMDB Dataset.csv
 
-├── eda.py
+├── sentiment_analysis.py
 
 └── README.md
 
 ## Author
 
 Vidya Choudhary
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
